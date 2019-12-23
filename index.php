@@ -1,0 +1,16 @@
+<?php
+
+include 'Vista/Loggin.php';
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Index</title>
+</head>
+<body>
+	
+</body>
+</html>

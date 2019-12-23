@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb( 247, 250, 251 );
+}
+.navegacion{
+    width: 850px;
+    margin: 30px auto;
+    background: rgb(137, 146, 104); 
+}
+.navegacion ul{
+    list-style: none;
+}
+.menus > li{
+    position: relative;
+    display: inline-block;
+}
+.menus > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #000;
+    font-family: fantasy;
+    text-decoration: none;
+}
+.Biemve{
+position: absolute;
+left: 1040px;
+top: 110px;
+font-size: 25px;
+font-weight: bold;
+}
+.menus li a:hover{
+    color: rgb(39, 64, 248);
+    transition: all .3s;
+}
+.submenus{
+    position: absolute;
+    background: rgb(137, 146, 104);
+    width: 120%;
+    display: none;
+    
+}
+.submenus li a{
+    display: block;
+    padding: 15px;
+    color: #000;
+    text-decoration: none;
+    font-family: fantasy;
+}
+.menus li:hover .submenus{
+    display: block;
+}
